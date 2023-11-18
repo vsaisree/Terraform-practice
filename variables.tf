@@ -5,3 +5,7 @@ variable "AWS_REGION" {
 variable "ECS_INSTANCE_TYPE" {
   default = "t2.micro"
 }
+
+variable "PATH_TO_PRIVATE_KEY" {
+  default = "mykey"
+}
