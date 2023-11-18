@@ -6,6 +6,10 @@ variable "ECS_INSTANCE_TYPE" {
   default = "t2.micro"
 }
 
+variable "PATH_TO_PRIVATE_KEY" {
+  default = "mykey"
+}
+
 variable "ECS_AMIS" {
   type = map(string)
 
